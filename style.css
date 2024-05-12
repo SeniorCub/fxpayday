@@ -6,6 +6,10 @@
      box-sizing: border-box;
      font-family: 'Poppins', sans-serif;
 }
+body{
+     width: 100vw;
+     overflow-x: hidden;
+}
 nav{
      display: flex;
      justify-content: space-between;
@@ -361,4 +365,16 @@ footer{
 }
 footer .navlinks a{
      color: #03649c;
+}
+@media (max-width: 800px) {
+     nav{
+          justify-content: center;
+          gap: 50px;
+     }
+     .navlinks{
+          display: none;
+     }
+     .navbutton{
+          padding: 5px;
+     }
 }
