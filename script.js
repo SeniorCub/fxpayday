@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded',()=>{
+     if (window.innerWidth <= 1000) {
+          document.querySelector("body").innerHTML=`
+               <h1>Use a Large screen of Minimum width of 1200px to view</h1>
+          `
+          console.log(window.innerWidth);
+      }
+      console.log(window.innerWidth);
+})
 document.querySelector('.fa-sun').addEventListener('click', lightMode);
 document.querySelector('.fa-moon').addEventListener('click', darkMode);
 const navLinks = document.querySelectorAll('.nav-link');
