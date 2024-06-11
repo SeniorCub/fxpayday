@@ -1,0 +1,18 @@
+body {
+     display: flex;
+     flex-direction: column;
+     gap: 250px;
+}
+.box {
+     width: 250px;
+     height: 250px;
+}
+.a {
+     background-color: red;
+}
+.b {
+     background-color: yellow;
+}
+.c {
+     background-color: blue;
+}
