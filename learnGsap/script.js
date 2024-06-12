@@ -62,32 +62,3 @@ Observer.create({
 });
 
 gotoSection(0, 1);
-
-/* <script>
-gsap.registerPlugin(ScrollTrigger);
-let tl = gsap.timeline({
-     ScrollTrigger: {
-          trigger: ".c",
-          start: "top center",
-          end: "top 100px",
-          scrub: 1,
-          markers: true,
-          toggleActions: "restart pause reverse pause"
-     }
-});
-tl.to(".c", {
-     x: 1000,
-     rotation: 360,
-     ease: "none",
-     duration: 3
-})
-.to(".c",{
-     backgroundColor: "purple",
-     duration: 1
-})
-.to(".c",{
-     x: 0,
-     duration: 3
-});
-
-</script> */
