@@ -114,3 +114,6 @@ h2 {
      background-position: 50% 45%;
    }
    
+   h2 * {
+     will-change: transform;
+   }
