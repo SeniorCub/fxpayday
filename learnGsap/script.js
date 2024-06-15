@@ -1,3 +1,7 @@
+import { gsap } from "gsap";
+import { SplitText } from "gsap/SplitText";
+import { Observer } from "gsap/Observer";
+
 gsap.registerPlugin(Observer, SplitText);
 
 let sections = document.querySelectorAll("section"),
@@ -36,18 +40,18 @@ function gotoSection(index, direction) {
         }, 0)
         .fromTo(images[index], { yPercent: 15 * dFactor }, { yPercent: 0 }, 0)
         .fromTo(splitHeadings[index].chars, { 
-                autoAlpha: 0, 
-                yPercent: 150 * dFactor
+            autoAlpha: 0, 
+            yPercent: 150 * dFactor
         }, {
-                autoAlpha: 1,
-                yPercent: 0,
-                duration: 1,
-                ease: "power2",
-                stagger: {
-                  each: 0.02,
-                  from: "random"
-                }
-            }, 0.2);
+            autoAlpha: 1,
+            yPercent: 0,
+            duration: 1,
+            ease: "power2",
+            stagger: {
+              each: 0.02,
+              from: "random"
+            }
+        }, 0.2);
 
     currentIndex = index;
 }
