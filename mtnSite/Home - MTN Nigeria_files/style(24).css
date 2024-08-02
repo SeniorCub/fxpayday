@@ -1,0 +1,181 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.breadcrumb-parent {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-parent:hover {
+  background-color: #E8E8E8;
+}
+.active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.video-overlayYes {
+  height: 100%;
+  background-size: cover;
+  box-shadow: inset 0px -200px 100px 0px rgba(0, 0, 0, 0.8);
+}
+.video-banner {
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-content: stretch;
+  align-items: flex-end;
+  width: 100%;
+  min-height: 790px;
+}
+@media (max-width: 860px) {
+  .video-banner {
+    height: 100%;
+    min-height: 640px;
+  }
+}
+@media (max-width: 560px) {
+  .video-banner {
+    min-height: 640px;
+  }
+}
+.video-banner .banner-video-section {
+  width: 100%;
+  min-height: 100%;
+  object-fit: fill;
+}
+@media (max-width: 860px) {
+  .video-banner .banner-video-section {
+    object-fit: fill;
+  }
+}
+.video-banner .banner-content-section {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  padding-left: 8%;
+  padding-right: 8%;
+  height: 100%;
+}
+.video-banner .banner-content-section p {
+  margin: 0;
+}
+.video-banner .banner-content-section .banner-content-container {
+  box-sizing: border-box;
+  padding-top: 200px;
+  max-width: 574px;
+  height: 400px;
+  margin-bottom: 32%;
+}
+@media (max-width: 768px) {
+  .video-banner .banner-content-section .banner-content-container {
+    height: 300px;
+    margin-bottom: 200px;
+  }
+}
+.video-banner .text-colorLight {
+  color: #ffffff;
+}
+.video-banner .text-colorDark {
+  color: #202020;
+}
+.video-banner .content-alignedTop {
+  align-items: flex-start;
+}
+.video-banner .content-alignedBottom {
+  align-items: flex-end;
+}
+.video-banner .video-banner-divider {
+  background-color: #ffffff;
+  border-radius: 16px 16px 0 0;
+  height: 30px;
+  margin-top: -20px;
+  width: 100%;
+}

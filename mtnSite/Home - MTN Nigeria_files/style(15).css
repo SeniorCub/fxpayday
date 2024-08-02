@@ -1,0 +1,255 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+@media (max-width: 860px) {
+  .internal-header-block {
+    height: 80px;
+  }
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+.breadcrumb-container .breadcrumb {
+  list-style: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.breadcrumb-container .breadcrumb-parent,
+.breadcrumb-container .breadcrumb-toplevel {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-container .breadcrumb-parent:hover,
+.breadcrumb-container .breadcrumb-toplevel:hover {
+  background-color: #E8E8E8;
+}
+.breadcrumb-container .active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.main-tweet-slider {
+  margin-left: 2.34%;
+  margin-right: 2.34%;
+  margin-bottom: 100px;
+}
+.main-tweet-slider .main-tweet-background {
+  background: linear-gradient(180deg, rgba(115, 115, 115, 0.4) 0%, rgba(0, 0, 0, 0.8) 50%), #232323;
+  border-radius: 24px;
+  padding-top: 100px;
+  z-index: -1;
+  padding-bottom: 240px;
+  margin-bottom: -220px;
+  text-align: center;
+}
+.main-tweet-slider .main-tweet-background .mtn-heading {
+  color: #ffffff;
+  font-size: 56px;
+  margin-bottom: 40px;
+}
+.main-tweet-slider .main-tweet-background .mtn-subheading {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 0px;
+  line-height: 22.5px;
+}
+.main-tweet-slider .slick-dots {
+  position: absolute;
+  margin-bottom: -80px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.main-tweet-slider .slick-dots button {
+  display: block;
+  background-color: #909090;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid 2px transparent;
+  outline: none;
+  text-indent: -9999px;
+  padding: 0;
+  cursor: pointer;
+}
+.main-tweet-slider .slick-dots li {
+  margin-right: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  border: solid 2px transparent;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.main-tweet-slider .slick-dots li.slick-active {
+  border-radius: 50%;
+  border: solid 2px #FFCB05;
+}
+.main-tweet-slider .slick-dots li.slick-active button {
+  outline: none;
+  background-color: #FFCB05;
+  border-color: #FFCB05;
+  padding: 0;
+}
+.main-tweet-slider .slick-track {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .main-tweet-slider .slick-track {
+    gap: unset;
+  }
+}
+.tweet-container {
+  padding-left: 5.76%;
+  padding-right: 5.76%;
+  max-width: 1400px;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+}
+.tweet-container .each-tweet {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  border-bottom: solid 4px #FFCB05;
+  border-radius: 24px;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  height: 365px;
+  position: relative;
+}
+.tweet-container .each-tweet .profile-block {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.tweet-container .each-tweet .mtn-bold-text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.tweet-container .each-tweet .mtn-body-text {
+  margin-top: 10px;
+  color: #606060;
+  margin-bottom: 20px;
+}
+.tweet-container .each-tweet .tiny-text {
+  font-size: 12px;
+  line-height: 140%;
+  color: #909090;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.tweet-container .each-tweet .mtn-page-title {
+  display: flex;
+  color: #202020;
+  text-decoration: none;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 50px;
+}
+.tweet-container .each-tweet .mtn-page-title:hover .link-chevron {
+  margin-left: 32px;
+  transition: all 0.3s ease-in-out;
+}
+.tweet-container .each-tweet .link-chevron {
+  height: 16px;
+  margin-left: 24px;
+}
+.tweet-container .each-tweet .link-chevron img {
+  height: 12px;
+}
+.tweet-container .each-tweet .profile-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}

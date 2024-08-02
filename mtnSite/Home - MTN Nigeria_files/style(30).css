@@ -1,0 +1,182 @@
+.dataplans-archive-container {
+    column-gap: 20px;
+    display: grid;
+    font-family: "WorkSans-Regular", sans-serif;
+    grid-template-columns: 1fr 120fr;
+    grid-template-rows: minmax(20px, auto);
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 88%;
+  }
+  @media (max-width: 880px) {
+    .dataplans-archive-container {
+      column-gap: 0;
+      grid-template-columns: 1fr;
+      grid-template-rows: minmax(auto);
+    }
+  }
+
+  .dataplans-archive-container .dataplans-archive--content {
+    column-gap: 20px;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 35px;
+    padding-top: 0px;
+  }
+  @media (max-width: 880px) {
+    .dataplans-archive-container .dataplans-archive--content {
+      grid-column: 1;
+      grid-row: 3;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .dataplans-archive-container .dataplans-archive--content ._card-deal {
+    border-radius: 16px;
+    border: 1px solid #B0B0B0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section {
+    padding: 0 24px;
+    position: relative;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section p {
+    font-family: "WorkSans-Regular", sans-serif;
+    size: 16px;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section:first-child {
+    padding-top: 24px;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section:first-child::after {
+    content: '';
+    height: 2px;
+    background: #E8E8E8;
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    right: 24px;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section-divider {
+    border: none;
+    height: 2px;
+    background: #FCE068;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section._card-deal__footer {
+    background-color: #FFCB05;
+    bottom: 0;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    margin-top: auto;
+    transition: all 150ms ease;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section._card-deal__footer ._card-deal__cta {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "MTNBrighterSans-Medium", sans-serif;
+    margin: 6px 0 0;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section._card-deal__footer:hover {
+    background-color: #202020;
+    color: #ffffff;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section._card-deal__footer:hover ._card-deal__section-divider {
+    background-color: #909090;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__section._card-deal__footer:hover ._card-deal__cta-icon::after {
+    content: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 11.2281V8.77193H15.2047L8.24561 1.75439L10 0L20 10L10 20L8.18713 18.2456L15.2047 11.2281H0Z' fill='%23FFCB05'/%3E%3C/svg%3E");
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__thumbnail img {
+    width: 100px;
+    height: 100px;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__badge-text {
+    align-items: center;
+    background-color: #FFCB05;
+    box-sizing: border-box;
+    clip-path: ellipse(50% 50% at 50% 50%);
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    height: 40px;
+    justify-content: center;
+    padding: 5px;
+    position: absolute;
+    right: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 24px;
+    width: 70px;
+    z-index: 1;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__sub-heading {
+    color: #606060;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    margin-bottom: 0;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__title {
+    font-family: "MTNBrighterSans-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin-top: 0;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal .deal-details-row {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 0;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal .deal-details-col {
+    padding: 0;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    padding-right: 12px;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal .deal-details-col:last-child {
+    border-right: none;
+    padding-left: 12px;
+    padding-right: 0px;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__price {
+    margin: 0;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__price-only,
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__price-period {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__price-currency,
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__price-amount {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "MTNBrighterSans-Bold", sans-serif;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__promotion {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__cta-icon {
+    transition: all 150ms ease;
+    position: absolute;
+    right: 24px;
+    top: calc(33% - 8px);
+  }
+  .dataplans-archive-container .dataplans-archive--content ._card-deal__cta-icon::after {
+    font-size: 20px;
+    content: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 11.2281V8.77193H15.2047L8.24561 1.75439L10 0L20 10L10 20L8.18713 18.2456L15.2047 11.2281H0Z' fill='%23202020'/%3E%3C/svg%3E");
+  }
+  .solutions-archive {
+    padding-top: 200px;
+  }
+  @media (max-width: 860px) {
+    .solutions-archive {
+      padding-top: 100px;
+    }
+  }

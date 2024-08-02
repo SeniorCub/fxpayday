@@ -1,0 +1,116 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.breadcrumb-parent {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-parent:hover {
+  background-color: #E8E8E8;
+}
+.active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+.bar-frame {
+  max-width: 1200px;
+  width: 88%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E8E8E8;
+  border-radius: 20px;
+  height: 28px;
+  box-sizing: border-box;
+  padding-top: 4px;
+  filter: invert(1);
+}
+@media (max-width: 860px) {
+  .bar-frame {
+    max-width: 95.32%;
+    width: auto;
+  }
+}
+.bar-frame .investment-bar {
+  width: 100%;
+}
+.bar-frame .marquee {
+  color: #E8E8E8;
+}

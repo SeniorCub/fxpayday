@@ -1,0 +1,260 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+@media (max-width: 860px) {
+  .internal-header-block {
+    height: 80px;
+  }
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+.breadcrumb-container .breadcrumb {
+  list-style: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.breadcrumb-container .breadcrumb-parent,
+.breadcrumb-container .breadcrumb-toplevel {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-container .breadcrumb-parent:hover,
+.breadcrumb-container .breadcrumb-toplevel:hover {
+  background-color: #E8E8E8;
+}
+.breadcrumb-container .active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.information-block {
+  margin-top: 60px;
+}
+.information-block .heightTall {
+  padding-bottom: 250px;
+  padding-top: 60px;
+}
+@media (max-width: 860px) {
+  .information-block .heightTall {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.information-block .heightRegular {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+@media (max-width: 860px) {
+  .information-block .heightRegular {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.information-block .heightShort {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media (max-width: 860px) {
+  .information-block .heightShort {
+    padding-bottom: 0px!important;
+    padding-top: 0px!important;
+    margin-top: 0;
+  }
+}
+@media (max-width: 860px) {
+  .information-block .desktop-only {
+    display: none;
+  }
+}
+@media (min-width: 861px) {
+  .information-block .mobile-only {
+    display: none;
+  }
+}
+.information-block .infoLight {
+  color: #ffffff;
+}
+.information-block .infoDark {
+  color: #202020;
+}
+.information-block .information-block-container {
+  border-radius: 24px;
+  width: 95.32%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+@media (max-width: 860px) {
+  .information-block .information-block-container {
+    padding: 60px 10px;
+    border-radius: 8px;
+  }
+}
+.information-block .information-block-container .information-block-title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  font-size: 56px;
+  line-height: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (max-width: 860px) {
+  .information-block .information-block-container .information-block-title {
+    max-width: 95%;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+.information-block .information-block-container .info-block-body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 22.5px;
+}
+.information-block .information-block-container .info-block-body strong {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.information-block .information-block-container .bodyNarrow {
+  max-width: 556px;
+}
+.information-block .information-block-container .bodyWide {
+  max-width: 940px;
+}
+.information-block .information-block-container .info-block-cta {
+  text-align: center;
+  margin-top: 32px;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information-block .information-block-container .info-block-cta .info-block-button-container .mtn-button {
+  padding: 16px;
+  box-sizing: border-box;
+  width: 216px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+  margin: 4px;
+}
+.information-block .information-block-container .info-block-cta .info-block-button-container .btn-Light {
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  background-color: transparent;
+}
+.information-block .information-block-container .info-block-cta .info-block-button-container .btn-Light:hover {
+  background-color: #ffffff;
+  transition: 0.3s ease-in-out all;
+  color: #202020;
+}
+.information-block .information-block-container .info-block-cta .info-block-button-container .btn-Dark {
+  color: #202020;
+  border: solid 2px #202020;
+  background-color: transparent;
+}
+.information-block .information-block-container .info-block-cta .info-block-button-container .btn-Dark:hover {
+  background-color: #FCE068;
+  transition: 0.3s ease-in-out all;
+}
+.information-block .information-block-container .info-block-cta .info-block-button-container .btn-Yellow {
+  color: #202020;
+  background-image: linear-gradient(#FCE068, #FCD818);
+  border: solid 2px #FCD818;
+}
+.information-block .information-block-container .info-block-cta .info-block-button-container .btn-Yellow:hover {
+  background-image: linear-gradient(#FCD818, #F8C000);
+  transition: 0.3s ease-in-out all;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+.information-block .information-block-container .info-block-cta .block_cta_desc_text {
+  margin-top: 32px;
+  font-size: 14px;
+  line-height: 18px;
+}

@@ -1,0 +1,43 @@
+.wp-block-mtn-vivid-wp-tab-sections .tab-head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: 0 0 0 200px;
+  padding: 0 0 15px 0;
+  white-space: nowrap;
+  overflow: auto;
+}
+@media (max-width: 880px) {
+  .wp-block-mtn-vivid-wp-tab-sections .tab-head {
+    overflow-x: scroll;
+    margin: 0;
+  }
+}
+.wp-block-mtn-vivid-wp-tab-sections .tab-head .tab-link {
+  border-radius: 8px;
+  border: 1px solid #909090;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 12px 40px;
+  transition: all 250ms ease;
+  white-space: nowrap;
+}
+.wp-block-mtn-vivid-wp-tab-sections .tab-head .tab-link.active,
+.wp-block-mtn-vivid-wp-tab-sections .tab-head .tab-link:hover,
+.wp-block-mtn-vivid-wp-tab-sections .tab-head .tab-link:focus,
+.wp-block-mtn-vivid-wp-tab-sections .tab-head .tab-link:active {
+  background-color: #ffcb05;
+  border-color: #ffcb05;
+}
+@media (max-width: 880px) {
+  .wp-block-mtn-vivid-wp-tab-sections {
+    margin: 0 25px;
+  }
+}
+.wp-block-mtn-vivid-wp-tab-sections.block-editor-block-list__block {
+  border: 0.5px solid #ffcb05;
+  padding: 5px;
+}

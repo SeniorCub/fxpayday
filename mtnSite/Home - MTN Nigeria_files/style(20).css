@@ -1,0 +1,699 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+@media (max-width: 860px) {
+  .internal-header-block {
+    height: 80px;
+  }
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+.breadcrumb-container .breadcrumb {
+  list-style: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.breadcrumb-container .breadcrumb-parent,
+.breadcrumb-container .breadcrumb-toplevel {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-container .breadcrumb-parent:hover,
+.breadcrumb-container .breadcrumb-toplevel:hover {
+  background-color: #E8E8E8;
+}
+.breadcrumb-container .active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+@media (max-width: 860px) {
+  #promo-desktop-only {
+    display: none;
+  }
+}
+@media (min-width: 861px) {
+  #promo-mobile-only {
+    display: none;
+  }
+}
+.promotion {
+  max-width: 1200px;
+  width: 88%;
+  margin-top: 120px;
+  border-bottom: solid 1px #E8E8E8;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  justify-content: center;
+}
+@media (max-width: 860px) {
+  .promotion {
+    width: 95.32%;
+    padding-bottom: 56px;
+    margin-top: 40;
+  }
+}
+.promotion .promo-block-top-level {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+@media (max-width: 731px) {
+  .promotion .promo-block-top-level {
+    justify-content: left;
+    margin-bottom: 0;
+  }
+}
+.promotion .promo-block-top-level .mtn-button {
+  border: solid 2px #202020;
+  padding: 16px 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #202020;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out all;
+  position: absolute;
+  right: 0;
+}
+.promotion .promo-block-top-level .mtn-button:hover {
+  background-image: linear-gradient(#FCD818, #F8C000);
+  transition: 0.3s ease-in-out all;
+  border-color: #FFCB05;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+@media (max-width: 860px) {
+  .promotion .promo-block-top-level .mtn-button {
+    display: none;
+  }
+}
+.promotion .promo-block-top-level .mtn-heading {
+  font-size: 56px;
+  line-height: 60px;
+  margin: auto;
+}
+@media (max-width: 860px) {
+  .promotion .promo-block-top-level .mtn-heading {
+    font-size: 52px;
+  }
+}
+.promotion .promo-bottom-level {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+@media (min-width: 861px) {
+  .promotion .promo-bottom-level {
+    display: none;
+  }
+}
+.promotion .promo-bottom-level .mtn-button {
+  border: solid 2px #202020;
+  padding: 16px 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #202020;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 731px) {
+  .promotion .promo-bottom-level .mtn-button {
+    width: 100%;
+  }
+}
+.promotion .promo-bottom-level .mtn-button:hover {
+  background-color: #202020;
+  color: #ffffff;
+}
+.promotion .promotion-carousel {
+  width: 100%;
+}
+.promotion .promotion-carousel .slick-dots {
+  position: absolute;
+  top: -100px;
+  margin-left: 40px;
+}
+.promotion .promotion-carousel .slick-dots button {
+  display: block;
+  background-color: #909090;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  text-indent: -9999px;
+  padding: 0;
+  cursor: pointer;
+}
+.promotion .promotion-carousel .slick-dots li {
+  margin-right: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+  outline: none;
+  padding: 3px;
+  border: solid 2px transparent;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.promotion .promotion-carousel .slick-dots li.slick-active {
+  border-radius: 50%;
+  border: solid 2px #FFCB05;
+}
+.promotion .promotion-carousel .slick-dots li.slick-active:before {
+  content: '';
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  top: -5px;
+  left: -5px;
+  padding: 2px;
+  transition-delay: 1.3s;
+  opacity: 1;
+}
+.promotion .promotion-carousel .slick-dots li.slick-active button {
+  outline: none;
+  background-color: #202020;
+  padding: 0;
+}
+.promotion .promo-grid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0!important;
+}
+@media (max-width: 860px) {
+  .promotion .promo-grid:not(:first-child):not(first-child) {
+    display: none !important;
+  }
+}
+.promotion .textLight {
+  color: #ffffff;
+}
+.promotion .textLight .promo-arrow img {
+  filter: invert(1);
+}
+.promotion .textDark {
+  color: #202020;
+}
+.promotion .single-promo-card {
+  text-decoration: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  transition: 0.3s ease-in-out all;
+  position: relative;
+}
+.promotion .single-promo-card .promo-category {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.promotion .single-promo-card .promo-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+  margin: 0;
+}
+.promotion .single-promo-card .promo-copy {
+  font-family: "WorkSans-Regular", sans-serif;
+  margin: 0;
+}
+.promotion .single-promo-card .promo-price-note {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+.promotion .single-promo-card .promo-price {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+  margin: 0;
+}
+.promotion .single-promo-card .promo-period {
+  font-family: "WorkSans-Bold", sans-serif;
+  margin: 0;
+}
+.promotion .single-promo-card .promo-price-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.promotion .single-promo-card .promo-price-section img {
+  transform: scaleX(-1);
+  transition: 0.3s ease-in-out all;
+  opacity: 0;
+}
+@media (max-width: 731px) {
+  .promotion .single-promo-card .promo-price-section img {
+    opacity: 1;
+  }
+}
+.promotion .single-promo-card:hover {
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.24);
+  transition: 0.3s ease-in-out all;
+}
+.promotion .single-promo-card:hover img {
+  transition: 0.3s ease-in-out all;
+  opacity: 1;
+  margin-left: 10px;
+}
+.promotion .single-promo-card:first-child {
+  min-width: 49%;
+  max-width: 49%;
+  float: left;
+  padding-left: 40px;
+  padding-right: 116px;
+  margin-right: 2%;
+  min-height: 530px;
+  max-height: 530px;
+}
+@media (max-width: 1219px) {
+  .promotion .single-promo-card:first-child {
+    padding-right: 48px;
+  }
+}
+@media (max-width: 786px) {
+  .promotion .single-promo-card:first-child {
+    padding-right: 40px;
+    min-height: 520px;
+  }
+}
+.promotion .single-promo-card:first-child .promo-heading {
+  font-size: 56px;
+  line-height: 60px;
+}
+@media (max-width: 960px) {
+  .promotion .single-promo-card:first-child .promo-heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+.promotion .single-promo-card:first-child .promo-copy {
+  font-size: 20px;
+  line-height: 25px;
+}
+.promotion .single-promo-card:first-child .promo-price-section {
+  position: absolute;
+  bottom: 40px;
+}
+.promotion .single-promo-card:first-child .promo-price-section .promo-price {
+  font-size: 56px;
+  line-height: 60px;
+}
+.promotion .single-promo-card:first-child .promo-price-section .promo-period {
+  font-size: 16px;
+  line-height: 16px;
+}
+.promotion .single-promo-card:first-child .promo-price-section .promo-arrow img {
+  width: 61px;
+}
+.promotion .single-promo-card:nth-child(2),
+.promotion .single-promo-card:nth-child(3),
+.promotion .single-promo-card:nth-child(4) {
+  float: left;
+}
+.promotion .single-promo-card:nth-child(2) {
+  min-width: 49%;
+  max-width: 49%;
+}
+.promotion .cards-2 .single-promo-card:nth-child(2) {
+  padding-left: 40px;
+  padding-right: 116px;
+  min-height: 530px;
+}
+@media (max-width: 1219px) {
+  .promotion .cards-2 .single-promo-card:nth-child(2) {
+    padding-right: 48px;
+  }
+}
+@media (max-width: 786px) {
+  .promotion .cards-2 .single-promo-card:nth-child(2) {
+    padding-right: 40px;
+    min-height: 520px;
+  }
+}
+.promotion .cards-2 .single-promo-card:nth-child(2) .promo-heading {
+  font-size: 56px;
+  line-height: 60px;
+}
+@media (max-width: 960px) {
+  .promotion .cards-2 .single-promo-card:nth-child(2) .promo-heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+.promotion .cards-2 .single-promo-card:nth-child(2) .promo-copy {
+  font-size: 20px;
+  line-height: 25px;
+}
+.promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section {
+  position: absolute;
+  bottom: 40px;
+}
+.promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section .promo-price {
+  font-size: 56px;
+  line-height: 60px;
+}
+.promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section .promo-period {
+  font-size: 16px;
+  line-height: 16px;
+}
+.promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section .promo-arrow img {
+  width: 61px;
+}
+.promotion .cards-3 .single-promo-card:nth-child(2),
+.promotion .cards-4 .single-promo-card:nth-child(2) {
+  padding-left: 32px;
+  padding-right: 224px;
+  margin-bottom: 2%;
+  min-height: 253px;
+  max-height: 253px;
+}
+@media (max-width: 1219px) {
+  .promotion .cards-3 .single-promo-card:nth-child(2),
+  .promotion .cards-4 .single-promo-card:nth-child(2) {
+    padding-right: 48px;
+  }
+}
+@media (max-width: 786px) {
+  .promotion .cards-3 .single-promo-card:nth-child(2),
+  .promotion .cards-4 .single-promo-card:nth-child(2) {
+    padding-right: 26px;
+  }
+}
+.promotion .cards-3 .single-promo-card:nth-child(2) .promo-price-section,
+.promotion .cards-4 .single-promo-card:nth-child(2) .promo-price-section {
+  position: absolute;
+  bottom: 28px;
+}
+.promotion .cards-3 .single-promo-card:nth-child(2),
+.promotion .cards-3 .single-promo-card:nth-child(3) {
+  min-width: 49%;
+  max-width: 49%;
+  padding-left: 32px;
+  padding-right: 224px;
+  min-height: 253px;
+  max-height: 253px;
+}
+@media (max-width: 1219px) {
+  .promotion .cards-3 .single-promo-card:nth-child(2),
+  .promotion .cards-3 .single-promo-card:nth-child(3) {
+    padding-right: 32px;
+  }
+}
+.promotion .cards-3 .single-promo-card:nth-child(2) .promo-price-section,
+.promotion .cards-3 .single-promo-card:nth-child(3) .promo-price-section {
+  position: absolute;
+  bottom: 28px;
+}
+.promotion .cards-4 .single-promo-card:nth-child(3),
+.promotion .cards-4 .single-promo-card:nth-child(4) {
+  min-width: 23.5%;
+  max-width: 23.5%;
+  padding: 26px 48px 26px 26px;
+  min-height: 253px;
+  max-height: 253px;
+}
+@media (max-width: 1219px) {
+  .promotion .cards-4 .single-promo-card:nth-child(3),
+  .promotion .cards-4 .single-promo-card:nth-child(4) {
+    padding-right: 26px;
+  }
+}
+.promotion .cards-4 .single-promo-card:nth-child(3) .promo-price-section,
+.promotion .cards-4 .single-promo-card:nth-child(4) .promo-price-section {
+  margin-top: 10px;
+}
+.promotion .cards-4 .single-promo-card:nth-child(3) {
+  margin-right: 2%;
+}
+@media (max-width: 1029px) {
+  .promotion .cards-4 .single-promo-card:nth-child(3) {
+    min-width: 49%;
+    max-width: 49%;
+    padding-left: 32px;
+    margin-right: 0;
+    padding-top: 40px;
+  }
+  .promotion .cards-4 .single-promo-card:nth-child(3) .promo-price-section {
+    position: absolute;
+    bottom: 28px;
+  }
+}
+@media (max-width: 1029px) {
+  .promotion .cards-4 .single-promo-card:nth-child(4) {
+    display: none;
+  }
+}
+.promotion .cards-3 .single-promo-card:nth-child(2) .promo-heading,
+.promotion .cards-4 .single-promo-card:nth-child(2) .promo-heading,
+.promotion .cards-3 .single-promo-card:nth-child(3) .promo-heading,
+.promotion .cards-4 .single-promo-card:nth-child(3) .promo-heading,
+.promotion .cards-3 .single-promo-card:nth-child(4) .promo-heading,
+.promotion .cards-4 .single-promo-card:nth-child(4) .promo-heading {
+  font-size: 32px;
+  line-height: 32px;
+}
+.promotion .cards-3 .single-promo-card:nth-child(2) .promo-copy,
+.promotion .cards-4 .single-promo-card:nth-child(2) .promo-copy,
+.promotion .cards-3 .single-promo-card:nth-child(3) .promo-copy,
+.promotion .cards-4 .single-promo-card:nth-child(3) .promo-copy,
+.promotion .cards-3 .single-promo-card:nth-child(4) .promo-copy,
+.promotion .cards-4 .single-promo-card:nth-child(4) .promo-copy {
+  font-size: 16px;
+  line-height: 24px;
+}
+.promotion .cards-3 .single-promo-card:nth-child(2) .promo-price,
+.promotion .cards-4 .single-promo-card:nth-child(2) .promo-price,
+.promotion .cards-3 .single-promo-card:nth-child(3) .promo-price,
+.promotion .cards-4 .single-promo-card:nth-child(3) .promo-price,
+.promotion .cards-3 .single-promo-card:nth-child(4) .promo-price,
+.promotion .cards-4 .single-promo-card:nth-child(4) .promo-price {
+  font-size: 28px;
+  line-height: 32.2px;
+}
+.promotion .cards-3 .single-promo-card:nth-child(2) .promo-period,
+.promotion .cards-4 .single-promo-card:nth-child(2) .promo-period,
+.promotion .cards-3 .single-promo-card:nth-child(3) .promo-period,
+.promotion .cards-4 .single-promo-card:nth-child(3) .promo-period,
+.promotion .cards-3 .single-promo-card:nth-child(4) .promo-period,
+.promotion .cards-4 .single-promo-card:nth-child(4) .promo-period {
+  font-size: 14px;
+  line-height: 17.5px;
+}
+.promotion .cards-3 .single-promo-card:nth-child(2) .promo-arrow img,
+.promotion .cards-4 .single-promo-card:nth-child(2) .promo-arrow img,
+.promotion .cards-3 .single-promo-card:nth-child(3) .promo-arrow img,
+.promotion .cards-4 .single-promo-card:nth-child(3) .promo-arrow img,
+.promotion .cards-3 .single-promo-card:nth-child(4) .promo-arrow img,
+.promotion .cards-4 .single-promo-card:nth-child(4) .promo-arrow img {
+  width: 41px;
+}
+@media (max-width: 731px) {
+  .promotion .cards-2 .single-promo-card:first-child,
+  .promotion .cards-3 .single-promo-card:first-child,
+  .promotion .cards-4 .single-promo-card:first-child,
+  .promotion .cards-2 .single-promo-card:nth-child(2),
+  .promotion .cards-3 .single-promo-card:nth-child(2),
+  .promotion .cards-4 .single-promo-card:nth-child(2),
+  .promotion .cards-2 .single-promo-card:nth-child(3),
+  .promotion .cards-3 .single-promo-card:nth-child(3),
+  .promotion .cards-4 .single-promo-card:nth-child(3),
+  .promotion .cards-2 .single-promo-card:nth-child(4),
+  .promotion .cards-3 .single-promo-card:nth-child(4),
+  .promotion .cards-4 .single-promo-card:nth-child(4) {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 370px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 32px;
+    padding-right: 48px;
+    padding-left: 32px;
+    padding-top: 32px;
+  }
+  .promotion .cards-2 .single-promo-card:first-child .promo-heading,
+  .promotion .cards-3 .single-promo-card:first-child .promo-heading,
+  .promotion .cards-4 .single-promo-card:first-child .promo-heading,
+  .promotion .cards-2 .single-promo-card:nth-child(2) .promo-heading,
+  .promotion .cards-3 .single-promo-card:nth-child(2) .promo-heading,
+  .promotion .cards-4 .single-promo-card:nth-child(2) .promo-heading,
+  .promotion .cards-2 .single-promo-card:nth-child(3) .promo-heading,
+  .promotion .cards-3 .single-promo-card:nth-child(3) .promo-heading,
+  .promotion .cards-4 .single-promo-card:nth-child(3) .promo-heading,
+  .promotion .cards-2 .single-promo-card:nth-child(4) .promo-heading,
+  .promotion .cards-3 .single-promo-card:nth-child(4) .promo-heading,
+  .promotion .cards-4 .single-promo-card:nth-child(4) .promo-heading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .promotion .cards-2 .single-promo-card:first-child .promo-copy,
+  .promotion .cards-3 .single-promo-card:first-child .promo-copy,
+  .promotion .cards-4 .single-promo-card:first-child .promo-copy,
+  .promotion .cards-2 .single-promo-card:nth-child(2) .promo-copy,
+  .promotion .cards-3 .single-promo-card:nth-child(2) .promo-copy,
+  .promotion .cards-4 .single-promo-card:nth-child(2) .promo-copy,
+  .promotion .cards-2 .single-promo-card:nth-child(3) .promo-copy,
+  .promotion .cards-3 .single-promo-card:nth-child(3) .promo-copy,
+  .promotion .cards-4 .single-promo-card:nth-child(3) .promo-copy,
+  .promotion .cards-2 .single-promo-card:nth-child(4) .promo-copy,
+  .promotion .cards-3 .single-promo-card:nth-child(4) .promo-copy,
+  .promotion .cards-4 .single-promo-card:nth-child(4) .promo-copy {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .promotion .cards-2 .single-promo-card:first-child .promo-price-section,
+  .promotion .cards-3 .single-promo-card:first-child .promo-price-section,
+  .promotion .cards-4 .single-promo-card:first-child .promo-price-section,
+  .promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section,
+  .promotion .cards-3 .single-promo-card:nth-child(2) .promo-price-section,
+  .promotion .cards-4 .single-promo-card:nth-child(2) .promo-price-section,
+  .promotion .cards-2 .single-promo-card:nth-child(3) .promo-price-section,
+  .promotion .cards-3 .single-promo-card:nth-child(3) .promo-price-section,
+  .promotion .cards-4 .single-promo-card:nth-child(3) .promo-price-section,
+  .promotion .cards-2 .single-promo-card:nth-child(4) .promo-price-section,
+  .promotion .cards-3 .single-promo-card:nth-child(4) .promo-price-section,
+  .promotion .cards-4 .single-promo-card:nth-child(4) .promo-price-section {
+    padding-top: 170px;
+  }
+  .promotion .cards-2 .single-promo-card:first-child .promo-price-section .promo-price,
+  .promotion .cards-3 .single-promo-card:first-child .promo-price-section .promo-price,
+  .promotion .cards-4 .single-promo-card:first-child .promo-price-section .promo-price,
+  .promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section .promo-price,
+  .promotion .cards-3 .single-promo-card:nth-child(2) .promo-price-section .promo-price,
+  .promotion .cards-4 .single-promo-card:nth-child(2) .promo-price-section .promo-price,
+  .promotion .cards-2 .single-promo-card:nth-child(3) .promo-price-section .promo-price,
+  .promotion .cards-3 .single-promo-card:nth-child(3) .promo-price-section .promo-price,
+  .promotion .cards-4 .single-promo-card:nth-child(3) .promo-price-section .promo-price,
+  .promotion .cards-2 .single-promo-card:nth-child(4) .promo-price-section .promo-price,
+  .promotion .cards-3 .single-promo-card:nth-child(4) .promo-price-section .promo-price,
+  .promotion .cards-4 .single-promo-card:nth-child(4) .promo-price-section .promo-price {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .promotion .cards-2 .single-promo-card:first-child .promo-price-section .promo-period,
+  .promotion .cards-3 .single-promo-card:first-child .promo-price-section .promo-period,
+  .promotion .cards-4 .single-promo-card:first-child .promo-price-section .promo-period,
+  .promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section .promo-period,
+  .promotion .cards-3 .single-promo-card:nth-child(2) .promo-price-section .promo-period,
+  .promotion .cards-4 .single-promo-card:nth-child(2) .promo-price-section .promo-period,
+  .promotion .cards-2 .single-promo-card:nth-child(3) .promo-price-section .promo-period,
+  .promotion .cards-3 .single-promo-card:nth-child(3) .promo-price-section .promo-period,
+  .promotion .cards-4 .single-promo-card:nth-child(3) .promo-price-section .promo-period,
+  .promotion .cards-2 .single-promo-card:nth-child(4) .promo-price-section .promo-period,
+  .promotion .cards-3 .single-promo-card:nth-child(4) .promo-price-section .promo-period,
+  .promotion .cards-4 .single-promo-card:nth-child(4) .promo-price-section .promo-period {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .promotion .cards-2 .single-promo-card:first-child .promo-price-section .promo-arrow img,
+  .promotion .cards-3 .single-promo-card:first-child .promo-price-section .promo-arrow img,
+  .promotion .cards-4 .single-promo-card:first-child .promo-price-section .promo-arrow img,
+  .promotion .cards-2 .single-promo-card:nth-child(2) .promo-price-section .promo-arrow img,
+  .promotion .cards-3 .single-promo-card:nth-child(2) .promo-price-section .promo-arrow img,
+  .promotion .cards-4 .single-promo-card:nth-child(2) .promo-price-section .promo-arrow img,
+  .promotion .cards-2 .single-promo-card:nth-child(3) .promo-price-section .promo-arrow img,
+  .promotion .cards-3 .single-promo-card:nth-child(3) .promo-price-section .promo-arrow img,
+  .promotion .cards-4 .single-promo-card:nth-child(3) .promo-price-section .promo-arrow img,
+  .promotion .cards-2 .single-promo-card:nth-child(4) .promo-price-section .promo-arrow img,
+  .promotion .cards-3 .single-promo-card:nth-child(4) .promo-price-section .promo-arrow img,
+  .promotion .cards-4 .single-promo-card:nth-child(4) .promo-price-section .promo-arrow img {
+    width: 41px;
+  }
+}

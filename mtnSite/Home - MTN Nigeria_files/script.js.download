@@ -1,0 +1,20 @@
+jQuery(function ($) {
+
+  const blockClass = '.wp-block-mtn-vivid-wp-tab-sections';
+  const panelClass = '.wp-block-mtn-vivid-wp-tab-content';
+
+  //on load
+  $(blockClass + ' .tab-link:first-child').addClass('active');
+
+  $(blockClass + ' .tab-link').click( (event) => {
+    event.preventDefault();
+
+    const $target = $(event.target);
+    $target.closest(blockClass).find('.tab-link').removeClass('active');
+    $target.addClass('active');
+
+    $target.closest(blockClass).find(panelClass).hide();
+    $target.closest(blockClass).find(panelClass + ':nth-of-type('+ ($target.index() + 1) +')').show();
+  } )
+
+});

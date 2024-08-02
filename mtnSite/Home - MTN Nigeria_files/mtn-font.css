@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraLight'; /* weight: 200 */
+    src: url('MTNBrighterSans-ExtraLight.eot?#iefix');
+    src: url('MTNBrighterSans-ExtraLight.eot?#iefix') format('eot'),
+        url('MTNBrighterSans-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraLightItalic'; /* weight: 200 */
+    src: url('MTNBrighterSans-ExtraLightItalic.eot?#iefix');
+    src: url('MTNBrighterSans-ExtraLightItalic.eot?#iefix') format('eot'),
+         url('MTNBrighterSans-ExtraLightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-Light'; /* weight: 300 */
+    src: url('MTNBrighterSans-Light.eot?#iefix');
+    src: url('MTNBrighterSans-Light.eot?#iefix') format('eot'),
+         url('MTNBrighterSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-LightItalic'; /* weight: 300 */
+    src: url('MTNBrighterSans-LightItalic.eot?#iefix');
+    src: url('MTNBrighterSans-LightItalic.eot?#iefix') format('eot'),
+         url('MTNBrighterSans-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-Regular'; /* weight: 400 */
+    src:  url('MTNBrighterSans-Regular.eot?#iefix');
+    src:  url('MTNBrighterSans-Regular.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-RegularItalic'; /* weight: 400 */
+    src:  url('MTNBrighterSans-RegularItalic.eot?#iefix');
+    src:  url('MTNBrighterSans-RegularItalic.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-Medium'; /* weight: 500 */
+    src:  url('MTNBrighterSans-Medium.eot?#iefix');
+    src:  url('MTNBrighterSans-Medium.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-MediumItalic'; /* weight: 500 */
+    src:  url('MTNBrighterSans-MediumItalic.eot?#iefix');
+    src:  url('MTNBrighterSans-MediumItalic.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-Bold'; /* weight: 700 */
+    src:  url('MTNBrighterSans-Bold.eot?#iefix');
+    src:  url('MTNBrighterSans-Bold.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-BoldItalic'; /* weight: 700 */
+    src:  url('MTNBrighterSans-BoldItalic.eot?#iefix');
+    src:  url('MTNBrighterSans-BoldItalic.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraBold'; /* weight: 700 */
+    src:  url('MTNBrighterSans-ExtraBold.eot?#iefix');
+    src:  url('MTNBrighterSans-ExtraBold.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraBoldItalic'; /* weight: 700 */
+    src:  url('MTNBrighterSans-ExtraBoldItalic.eot?#iefix');
+    src:  url('MTNBrighterSans-ExtraBoldItalic.eot?#iefix') format('eot'),
+          url('MTNBrighterSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Thin';
+    src:  url('WorkSans-Thin.eot?#iefix');
+    src:  url('WorkSans-Thin.eot?#iefix') format('eot'),
+          url('WorkSans-Thin.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Light';
+    src:  url('WorkSans-Light.eot?#iefix');
+    src:  url('WorkSans-Light.eot?#iefix') format('eot'),
+          url('WorkSans-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-LightItalic';
+    src:  url('WorkSans-LightItalic.eot?#iefix');
+    src:  url('WorkSans-LightItalic.eot?#iefix') format('eot'),
+          url('WorkSans-LightItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src:  url('WorkSans-Regular.eot?#iefix');
+    src:  url('WorkSans-Regular.eot?#iefix') format('eot'),
+          url('WorkSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Medium';
+    src:  url('WorkSans-Medium.eot?#iefix');
+    src:  url('WorkSans-Medium.eot?#iefix') format('eot'),
+          url('WorkSans-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src:  url('WorkSans-Bold.eot?#iefix');
+    src:  url('WorkSans-Bold.eot?#iefix') format('eot'),
+          url('WorkSans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-BoldItalic';
+    src:  url('WorkSans-BoldItalic.eot?#iefix');
+    src:  url('WorkSans-BoldItalic.eot?#iefix') format('eot'),
+          url('WorkSans-BoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-ExtraBold';
+    src:  url('WorkSans-ExtraBold.eot?#iefix');
+    src:  url('WorkSans-ExtraBold.eot?#iefix') format('eot'),
+          url('WorkSans-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-ExtraBoldItalic';
+    src:  url('WorkSans-ExtraBoldItalic.eot?#iefix');
+    src:  url('WorkSans-ExtraBoldItalic.eot?#iefix') format('eot'),
+          url('WorkSans-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Black';
+    src:  url('WorkSans-Black.eot?#iefix');
+    src:  url('WorkSans-Black.eot?#iefix') format('eot'),
+          url('WorkSans-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-BlackItalic';
+    src:  url('WorkSans-BlackItalic.eot?#iefix');
+    src:  url('WorkSans-BlackItalic.eot?#iefix') format('eot'),
+          url('WorkSans-BlackItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

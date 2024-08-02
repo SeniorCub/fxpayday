@@ -1,0 +1,212 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.breadcrumb-parent {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-parent:hover {
+  background-color: #E8E8E8;
+}
+.active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.image-carousel-section {
+  width: 95.32%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-carousel-section .image-carousel-top {
+  padding-top: 72px;
+  border-radius: 16px;
+  height: 538px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.image-carousel-section .image-carousel-top .textDark {
+  color: #202020;
+}
+.image-carousel-section .image-carousel-top .textLight {
+  color: #ffffff;
+}
+.image-carousel-section .image-carousel-top .mtn-heading {
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 40px;
+  max-width: 558px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-carousel-section .image-carousel-slider {
+  display: block;
+  margin-top: -350px;
+  z-index: 1;
+  padding-left: 5.76%;
+  padding-right: 5.76%;
+}
+.image-carousel-section .image-carousel-slider .slick-slide {
+  height: auto;
+}
+@media (max-width: 660px) {
+  .image-carousel-section .image-carousel-slider .slick-list {
+    margin-top: 50px;
+  }
+}
+.image-carousel-section .image-carousel-slider .slick-next {
+  top: 20%;
+  background: url(../../../public/img/chevron-right.svg) no-repeat center #ffffff;
+}
+.image-carousel-section .image-carousel-slider .slick-prev {
+  top: 20%;
+  background: url(../../../public/img/chevron-left.svg) no-repeat center #ffffff;
+}
+.image-carousel-section .image-carousel-slider .image-carousel-slide {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: auto;
+}
+.image-carousel-section .image-carousel-slider .image-carousel-slide img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-carousel-section .image-carousel-slider .slick-dots {
+  display: flex;
+  justify-content: center;
+}
+.image-carousel-section .image-carousel-slider .slick-dots button {
+  display: block;
+  background-color: #909090;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid 2px transparent;
+  outline: none;
+  text-indent: -9999px;
+  padding: 0;
+  cursor: pointer;
+}
+.image-carousel-section .image-carousel-slider .slick-dots li {
+  margin-right: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  border: solid 2px transparent;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.image-carousel-section .image-carousel-slider .slick-dots li.slick-active {
+  border-radius: 50%;
+  border: solid 2px #FFCB05;
+}
+.image-carousel-section .image-carousel-slider .slick-dots li.slick-active button {
+  outline: none;
+  background-color: #FFCB05;
+  border-color: #FFCB05;
+  padding: 0;
+}
+.image-carousel-section .image-carousel-cta {
+  padding-top: 60px;
+  text-align: center;
+}
+.image-carousel-section .image-carousel-cta .mtn-primary-button {
+  width: 216px;
+  min-width: 216px;
+}
+@media (max-width: 768px) {
+  .image-carousel-section .image-carousel-cta .mtn-primary-button {
+    width: 216px;
+  }
+}

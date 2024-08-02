@@ -1,0 +1,252 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.breadcrumb-parent {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-parent:hover {
+  background-color: #E8E8E8;
+}
+.active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.careers-grid .careers-grid-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .careers-grid .careers-grid-container {
+    width: 95.32%;
+    margin-bottom: 60px;
+  }
+}
+.careers-grid .careers-grid-container .careers-block-heading {
+  text-align: center;
+  font-size: 56px;
+  line-height: 60px;
+  color: #202020;
+  margin-bottom: 0;
+}
+@media (max-width: 860px) {
+  .careers-grid .careers-grid-container .careers-block-heading {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+.careers-grid .careers-grid-container .no-vacancy-container {
+  text-align: center;
+}
+.careers-grid .careers-grid-container .careers-grid-slider {
+  margin-top: 30px;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card {
+  border-radius: 24px;
+  padding: 24px;
+  margin: 10px;
+  height: 300px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+  position: relative;
+  display: block;
+  border: solid 2px transparent;
+  cursor: pointer;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card:hover {
+  border: solid 2px #FFCB05;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card h3 {
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22.5px;
+  margin: 0;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card p {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .single-career-details {
+  list-style: none;
+  padding-left: 0;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .single-career-details .single-career-detail {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+  color: #606060;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .single-career-details .single-career-detail .job-overview-icon {
+  width: 16px;
+  height: 16px;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .single-career-details .single-career-detail .job-overview-icon img {
+  width: 100%;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .career-grid-card-cta {
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  position: absolute;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .career-grid-card-cta .career-grid-card-btn {
+  width: 100%;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .career-grid-card-cta .mtn-button {
+  width: 100%;
+  padding: 16px;
+  background-color: #ffffff;
+  border: solid 2px #202020;
+  color: #202020;
+  box-sizing: border-box;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .career-grid-card .career-grid-card-cta .mtn-button:hover {
+  background-color: #202020;
+  color: #ffffff;
+  transition: 0.3s all ease-in-out;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .slick-dots {
+  justify-content: center;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .slick-dots button {
+  display: block;
+  background-color: #909090;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid 2px transparent;
+  outline: none;
+  text-indent: -9999px;
+  padding: 0;
+  cursor: pointer;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .slick-dots li {
+  margin-right: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  border: solid 2px transparent;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .slick-dots li.slick-active {
+  border-radius: 50%;
+  border: solid 2px #FFCB05;
+}
+.careers-grid .careers-grid-container .careers-grid-slider .slick-dots li.slick-active button {
+  outline: none;
+  background-color: #FFCB05;
+  border-color: #FFCB05;
+  padding: 0;
+}
+.careers-grid .careers-grid-container .career-grid-cta {
+  text-align: center;
+  margin-top: 32px;
+}
+.careers-grid .careers-grid-container .career-grid-cta .career-grid-cta-btn {
+  padding: 16px;
+  width: 216px;
+  color: #ffffff;
+  background-color: #202020;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+.careers-grid .careers-grid-container .career-grid-cta .career-grid-cta-btn:hover {
+  background-image: linear-gradient(#FCD818, #F8C000);
+  transition: 0.3s ease-in-out all;
+  color: #202020;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}

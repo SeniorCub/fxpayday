@@ -1,0 +1,249 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+@media (max-width: 860px) {
+  .internal-header-block {
+    height: 80px;
+  }
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+.breadcrumb-container .breadcrumb {
+  list-style: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.breadcrumb-container .breadcrumb-parent,
+.breadcrumb-container .breadcrumb-toplevel {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-container .breadcrumb-parent:hover,
+.breadcrumb-container .breadcrumb-toplevel:hover {
+  background-color: #E8E8E8;
+}
+.breadcrumb-container .active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.information-carousel {
+  width: 95.32%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  text-align: center;
+}
+.information-carousel .textDark {
+  color: #202020;
+}
+.information-carousel .textLight {
+  color: #ffffff;
+}
+.information-carousel .information-carousel-section {
+  border-radius: 24px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .information-carousel .information-carousel-section {
+    padding-bottom: 00px;
+    padding-top: 60px;
+    border-radius: 16px;
+  }
+}
+.information-carousel .information-carousel-section .mtn-heading {
+  font-size: 56px;
+  line-height: 60px;
+  margin: 0px 0px 24px 0px;
+  width: 95%;
+  margin: 0 auto 0 auto;
+}
+@media (max-width: 860px) {
+  .information-carousel .information-carousel-section .mtn-heading {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+.information-carousel .information-carousel-section .mtn-body-text {
+  width: 90%;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto 0 auto;
+}
+.information-carousel .information-carousel-section .information-carousel-slider {
+  max-width: 1200px;
+  margin-top: 60px;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .information-carousel .information-carousel-section .information-carousel-slider {
+    width: 100%;
+  }
+}
+.information-carousel .information-carousel-section .information-carousel-slider .slick-slide {
+  height: auto;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .slick-dots {
+  justify-content: center;
+  bottom: -160px;
+}
+@media (max-width: 768px) {
+  .information-carousel .information-carousel-section .information-carousel-slider .slick-dots {
+    bottom: -50px;
+  }
+}
+.information-carousel .information-carousel-section .information-carousel-slider .slick-dots button {
+  display: block;
+  background-color: #909090;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid 2px transparent;
+  outline: none;
+  text-indent: -9999px;
+  padding: 0;
+  cursor: pointer;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .slick-dots li {
+  margin-right: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  border: solid 2px transparent;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .slick-dots li.slick-active {
+  border-radius: 50%;
+  border: solid 2px #FFCB05;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .slick-dots li.slick-active button {
+  outline: none;
+  background-color: #FFCB05;
+  border-color: #FFCB05;
+  padding: 0;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .information-carousel-slide {
+  margin: 10px;
+  box-sizing: border-box;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .information-carousel-slide .slide-image-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 72px;
+  margin-bottom: 10px;
+  height: 72px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .information-carousel-slide .slide-image-section img {
+  width: 100%;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .information-carousel-slide .mtn-heading {
+  width: 100%;
+  font-size: 28px;
+  line-height: 32px;
+  margin: 0px 0px 8px 0px;
+  word-wrap: break-word;
+}
+.information-carousel .information-carousel-section .information-carousel-slider .information-carousel-slide .mtn-body-text {
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}

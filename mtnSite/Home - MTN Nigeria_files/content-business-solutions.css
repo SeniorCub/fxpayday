@@ -1,0 +1,475 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+.breadcrumb-container .breadcrumb {
+  list-style: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.breadcrumb-container .breadcrumb-parent,
+.breadcrumb-container .breadcrumb-toplevel {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-container .breadcrumb-parent:hover,
+.breadcrumb-container .breadcrumb-toplevel:hover {
+  background-color: #E8E8E8;
+}
+.breadcrumb-container .active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.solutions-page {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 180px;
+}
+.business-solution .product-row {
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 860px) {
+  .business-solution .product-row {
+    display: block;
+  }
+}
+@media (max-width: 860px) {
+  .business-solution .product-row .product-col {
+    width: 100%;
+  }
+}
+.business-solution .product-row .product-details-col {
+  position: relative;
+  width: 36%;
+}
+@media (max-width: 860px) {
+  .business-solution .product-row .product-details-col {
+    width: 100%;
+  }
+}
+.business-solution .product-row .product-extras-col {
+  width: 62%;
+}
+@media (max-width: 860px) {
+  .business-solution .product-row .product-extras-col {
+    width: 100%;
+  }
+}
+.business-solution .product-row .product-extras-col .solution-thumbnail {
+  width: 100%;
+}
+@media (max-width: 860px) {
+  .business-solution .product-row .product-extras-col .solution-thumbnail {
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+}
+.business-solution .product-row .product-extras-col .entry-content {
+  font-family: "WorkSans-Regular", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: #202020;
+}
+@media (max-width: 860px) {
+  .business-solution .product-row .product-extras-col .entry-content {
+    margin-bottom: 30px;
+  }
+}
+.business-solution .product-row .product-extras-col .entry-content .entry-details {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.business-solution .product-row .product-extras-col .solution-table-heading {
+  padding-left: 3%;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+@media (max-width: 860px) {
+  .business-solution .product-row .product-extras-col .solution-table-heading {
+    padding-left: 0;
+  }
+}
+.business-solution .product-row .product-extras-col .solution-table-heading strong {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.business-solution .product-row .product-extras-col .solution-table-heading p {
+  margin: 0;
+}
+.bundle-details-section .bundle-details-row {
+  display: flex;
+  border-top: solid 1px #e8e8e8;
+  border-bottom: solid 1px #e8e8e8;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+}
+.bundle-details-section .bundle-details-row .bundle-details-col {
+  border-left: solid 1px #e8e8e8;
+  padding: 0 24px;
+}
+.bundle-details-section .bundle-details-row .bundle-details-col:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.bundle-details-section .bundle-details-row .bundle-details-col .feature-type-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #202020;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.bundle-details-section .bundle-details-row .bundle-details-col .deal-detail {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+  color: #202020;
+}
+.deal-category {
+  text-transform: uppercase;
+  color: #404040;
+  font-size: 14px;
+  line-height: 17.5px;
+  font-family: "WorkSans-Bold", sans-serif;
+  margin-bottom: 0;
+}
+.deal-title {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+  color: #FFCB05;
+  font-size: 40px;
+  line-height: 44px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.solution-features-list .solutions-features-list-heading {
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "WorkSans-Regular", sans-serif;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.solution-features-list .solution-feature-list {
+  list-style: none;
+  padding-left: 0;
+}
+.solution-features-list .solution-feature-list .solution-feature {
+  color: #202020;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "WorkSans-Regular", sans-serif;
+  margin-bottom: 6px;
+}
+.solution-features-list .solution-feature-list .solution-feature:before {
+  content: "";
+  min-width: 14.4px;
+  min-height: 14.4px;
+  background-color: #FFCB05;
+  border-radius: 50%;
+  display: block;
+  margin-right: 13px;
+  float: left;
+}
+.business-solution-contact {
+  margin-top: 180px;
+}
+@media (max-width: 860px) {
+  .business-solution-contact {
+    margin-top: 50px;
+  }
+}
+.business-solution-contact .solution-detail-section {
+  max-width: 748px;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+@media (max-width: 860px) {
+  .business-solution-contact .solution-detail-section {
+    width: 95.32%;
+  }
+}
+.business-solution-contact .solution-detail-section .solution-detail-heading {
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  color: #202020;
+  margin-bottom: 0;
+}
+.business-solution-contact .solution-detail-section .solution-detail-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #202020;
+}
+.business-solution-contact .deal-category {
+  margin-top: 60px;
+}
+@media (max-width: 860px) {
+  .business-solution-contact .deal-category {
+    margin-top: 30px;
+  }
+}
+.business-solution-contact .solution-features-list {
+  margin-bottom: 90px;
+}
+@media (max-width: 860px) {
+  .business-solution-contact .solution-features-list {
+    margin-bottom: 40px;
+  }
+}
+.business-solution-contact .bundle-details-section {
+  width: 460px;
+  max-width: 100%;
+}
+.business-contact-form {
+  margin-top: 40px;
+}
+.business-contact-form .contact-name-row,
+.business-contact-form .contact-details-row {
+  font-family: "WorkSans-Regular", sans-serif;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 860px) {
+  .business-contact-form .contact-name-row,
+  .business-contact-form .contact-details-row {
+    display: block;
+  }
+}
+.business-contact-form .contact-name-row .solutions-input,
+.business-contact-form .contact-details-row .solutions-input {
+  width: 50%;
+}
+@media (max-width: 860px) {
+  .business-contact-form .contact-name-row .solutions-input,
+  .business-contact-form .contact-details-row .solutions-input {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
+.business-contact-form .contact-name-row .solutions-input .solutions-input-field,
+.business-contact-form .contact-details-row .solutions-input .solutions-input-field {
+  width: 100%;
+  padding: 20px 15px;
+  border: solid 1px #B0B0B0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.business-contact-form .contact-name-row .solutions-input .solutions-input-field::placeholder,
+.business-contact-form .contact-details-row .solutions-input .solutions-input-field::placeholder {
+  color: #cfcfcf;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "WorkSans-Regular", sans-serif;
+  opacity: 1;
+}
+.business-contact-form .contact-business-row {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.business-contact-form .contact-business-row .business-input {
+  width: 100%;
+  padding: 20px 15px;
+  border: solid 1px #B0B0B0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+.business-contact-form .contact-business-row .business-input::placeholder {
+  color: #cfcfcf;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "WorkSans-Regular", sans-serif;
+  opacity: 1;
+}
+.business-contact-form .mtn-callback-form-btn {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #E8E8E8;
+  margin-top: 0px;
+  transition: 0.3s ease-in-out all;
+  width: 242px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .business-contact-form .mtn-callback-form-btn {
+    width: 100%;
+  }
+}
+.business-contact-form .mtn-callback-form-btn:hover {
+  background-image: linear-gradient(#FCD818, #F8C000);
+  transition: 0.3s ease-in-out all;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+@media (max-width: 860px) {
+  .solution-success-section {
+    margin-top: 100px;
+  }
+}
+.solution-success-section .solution-success-message {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.solution-success-section .solution-success-message .solution-message-icon {
+  text-align: center;
+}
+.solution-success-section .solution-success-message .solution-message-heading {
+  text-align: center;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.solution-success-section .solution-success-message .solution-message-heading h2 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 0;
+}
+.solution-success-section .solution-success-message .solution-message-body {
+  text-align: center;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+.solution-success-section .solution-success-message .solution-message-button {
+  text-align: center;
+}
+.solution-success-section .solution-success-message .solution-message-button .mtn-primary-button {
+  width: 242px;
+  cursor: pointer;
+}
+.solution-success-section .solution-success-related-products {
+  border-top: solid 1px #B0B0B0;
+  margin-top: 80px;
+  width: 88%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.solution-success-section .solution-success-related-products .solution-message-heading {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.solution-success-section .solution-success-related-products .solution-message-heading h2 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.solution-footer-details {
+  display: flex;
+  align-items: center;
+}
+.solution-descriptor-container {
+  display: flex;
+}
+.solution-footer-item:last-child {
+  border-right: 0!important;
+}
+.solution-footer-item .solutions-descriptor {
+  margin: 0;
+  font-family: "WorkSans-Bold", sans-serif !important;
+}

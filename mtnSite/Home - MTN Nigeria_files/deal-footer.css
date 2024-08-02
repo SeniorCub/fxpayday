@@ -1,0 +1,427 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.breadcrumb-parent {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-parent:hover {
+  background-color: #E8E8E8;
+}
+.active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+.deal-footer {
+  margin-top: 100px;
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  height: auto;
+}
+.deal-footer .deal-footer-background {
+  width: 88%;
+  max-width: 1200px;
+  background: #202020;
+  padding: 28px 36px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px 8px 0px 0px;
+}
+@media (max-width: 768px) {
+  .deal-footer .deal-footer-background {
+    width: auto;
+    padding: 28px 2.34%;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .deal-footer-container {
+    width: 95.32%;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-label {
+  color: #FFCB05;
+  text-transform: uppercase;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-price {
+  color: #ffffff;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0;
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-period {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-details {
+  display: flex;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .deal-footer-container .deal-footer-details {
+    display: none;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-item {
+  border-right: solid 2px #606060;
+  padding: 0px 30px;
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-item:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.deal-footer .deal-footer-background .deal-footer-container .bundle-information .deal-footer-label {
+  margin-bottom: 10px;
+}
+@media (max-width: 1095px) {
+  .deal-footer .deal-footer-background .deal-footer-container .bundle-information {
+    display: none;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-info-details,
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-main-details {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.deal-footer .deal-footer-background .deal-footer-container .no-bundle {
+  display: none;
+}
+.deal-footer .deal-footer-background .deal-footer-container .solutions-item {
+  border: none;
+}
+.deal-footer .deal-footer-background .deal-footer-container .solutions-cta {
+  border-left: solid 2px #606060;
+  padding: 0px 0px 0px 30px;
+}
+.deal-footer .deal-footer-background .deal-footer-container .solutions-footer-text {
+  color: #ffffff;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+.deal-footer .deal-footer-background .deal-footer-container .solutions-footer-text strong {
+  font-family: "WorkSans-Medium", sans-serif;
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta,
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta {
+  display: flex;
+  gap: 60px;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta,
+  .deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta .deal-footer-btn,
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-btn {
+  border-radius: 24px;
+  background-color: #ffffff;
+  color: #202020;
+  padding: 16px;
+  width: 216px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out all;
+  display: block;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-align: center;
+}
+@media (max-width: 520px) {
+  .deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta .deal-footer-btn,
+  .deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-btn {
+    width: auto;
+    font-size: 12px;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta .deal-footer-btn:hover,
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-btn:hover {
+  background-color: #FFCB05;
+  transition: 0.3s ease-in-out all;
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta .deal-footer-disclaimer,
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-disclaimer {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "WorkSans-Regular", sans-serif;
+  text-align: center;
+  padding-top: 2px;
+  margin: 0;
+}
+@media (max-width: 520px) {
+  .deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta .deal-footer-disclaimer,
+  .deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-disclaimer {
+    font-size: 12px;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .deal-footer-cta .solutions-btn,
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .solutions-btn {
+  background-image: linear-gradient(#FCD818, #F8C000);
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta {
+  align-items: center;
+  width: 48%;
+  gap: 16px;
+  justify-content: flex-end;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .link-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .careers-footer-actions {
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+    justify-content: flex-end;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .link-enabled {
+  cursor: pointer;
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .job-disclaimer {
+  appearance: none;
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .disclaimer-unchecked {
+  appearance: none;
+  min-width: 24px;
+  max-width: 24px;
+  min-height: 24px;
+  max-height: 24px;
+  background-color: #202020;
+  border: solid 2px #606060;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .disclaimer-checked {
+  appearance: none;
+  background-color: #FFCB05;
+  border: solid 2px #FFCB05;
+  border-radius: 2px;
+  min-width: 24px;
+  max-width: 24px;
+  min-height: 24px;
+  max-height: 24px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background-image: url(/wp-content/themes/mtn-vivid-wp/public/img/svgs/tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-disclaimer {
+  text-align: left;
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-total {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .deal-footer-total {
+    width: 100%;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .expired-vacancy-text {
+  color: #ffffff;
+  text-align: right;
+  font-size: 20px;
+  margin: 0;
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .careers-footer-btn {
+  border-radius: 24px;
+  background-color: #ffffff;
+  color: #202020;
+  padding: 16px;
+  width: 216px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out all;
+  display: block;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-align: center;
+}
+@media (max-width: 520px) {
+  .deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .careers-footer-btn {
+    width: 216px;
+    font-size: 12px;
+  }
+}
+.deal-footer .deal-footer-background .deal-footer-container .careers-footer-cta .careers-footer-btn:hover {
+  background-image: linear-gradient(#FCD818, #F8C000);
+  transition: 0.3s ease-in-out all;
+}
+.deal-footer .deal-footer-background .career-footer-container {
+  justify-content: space-between;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .career-footer-container {
+    flex-direction: column;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.deal-footer .deal-footer-background .career-footer-container .career-footer-share {
+  cursor: pointer;
+}
+@media (max-width: 860px) {
+  .deal-footer .deal-footer-background .career-footer-container .career-footer-share {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+.deal-footer .deal-footer-background .career-footer-container .career-footer-share .tooltip-hide {
+  display: none;
+}
+.deal-footer .deal-footer-background .career-footer-container .career-footer-share .footer-share-tooltip {
+  position: absolute;
+  left: 11%;
+  bottom: 80px;
+  width: 223px;
+}
+.deal-footer .deal-footer-background .career-footer-container .career-footer-share .footer-share-tooltip::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  /* At the bottom of the tooltip */
+  left: 15%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+}
+.deal-footer .deal-footer-background .career-footer-container .career-footer-share .footer-share-tooltip ul {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding-left: 0;
+  padding: 18px;
+  list-style: none;
+  cursor: unset;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+  margin: 0;
+}
+.deal-footer .deal-footer-background .career-footer-container .career-footer-share .footer-share-tooltip ul .under-line {
+  text-decoration: underline;
+  font-family: "WorkSans-Regular", sans-serif;
+}

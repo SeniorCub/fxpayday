@@ -1,0 +1,220 @@
+.mtn-heading {
+  font-family: "MTNBrighterSans-Bold", sans-serif;
+}
+.mtn-button-text {
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-subheading {
+  font-family: "MTNBrighterSans-Regular", sans-serif;
+}
+.mtn-page-title {
+  font-family: "WorkSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-body-text {
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.mtn-button {
+  border-radius: 24px;
+  font-family: "WorkSans-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.mtn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 860px) {
+  .mtn-section {
+    max-width: 90%;
+  }
+}
+.mtn-bold-text {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.internal-header-block {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.page-title-container {
+  max-width: 1200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title-container .mtn-page-title {
+  font-size: 64px;
+  line-height: 64px;
+  color: #202020;
+  text-transform: capitalize;
+}
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.breadcrumb-parent {
+  text-decoration: none;
+  border: solid 1px #E8E8E8;
+  border-radius: 4px;
+  color: #202020;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSans-Regular", sans-serif;
+}
+.breadcrumb-parent:hover {
+  background-color: #E8E8E8;
+}
+.active-page-breadcrumb {
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  line-height: 125%;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.icon-card-section {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-card-content {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.down-chevron {
+  transform: rotate(-90deg);
+  margin-left: 20px;
+}
+@media (max-width: 880px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 880px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 1;
+    transform: translateY(-1.25em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.mtn-accordion {
+  max-width: 1200px;
+  width: auto;
+}
+@media (max-width: 860px) {
+  .mtn-accordion {
+    width: 95.32%;
+  }
+}
+.accordion-title {
+  font-family: "WorkSans-Regular", sans-serif;
+  color: #404040;
+}
+.mtn-accordion-item {
+  cursor: pointer;
+  border-bottom: 1.5px solid #E8E8E8;
+  transition: all 0.2s ease-in-out;
+}
+.mtn-accordion-item h1,
+.mtn-accordion-item h2,
+.mtn-accordion-item h3,
+.mtn-accordion-item h4,
+.mtn-accordion-item h5 {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.mtn-accordion-item .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 3.5%;
+}
+.mtn-accordion-item p,
+.mtn-accordion-item .accordion-content {
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  font-size: 15px;
+  color: #202020;
+  line-height: 1.4;
+  transition: all 0.2s ease-out;
+  color: #404040;
+}
+.mtn-accordion-item .downchevron {
+  transition: all 0.2s ease-in-out;
+}
+.mtn-accordion-item .panel {
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
+  font-family: "WorkSans-Regular", sans-serif;
+  padding: 0px 3.5%;
+}
+.mtn-accordion-item[open] {
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
+}
+.mtn-accordion-item[open] .downchevron {
+  transform: rotate(180deg);
+  transition: all 0.2s ease-in-out;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+.accordion .mtn-accordion {
+  margin-left: auto;
+  margin-right: auto;
+}
+.accordion-cta {
+  padding-top: 20px;
+  display: flex;
+}
+.accordion-cta a {
+  margin-left: 3.5%;
+  font-family: "WorkSans-Regular", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #202020;
+}
+.accordion-cta a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 860px) {
+  .accordion-cta {
+    justify-content: center;
+    padding-top: 40px;
+  }
+}
+.widthFull .mtn-accordion {
+  width: 95.32%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.widthFull .accordion-cta {
+  width: 95.32%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.widthNarrow .mtn-accordion {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.widthNarrow .accordion-cta {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
